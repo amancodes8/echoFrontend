@@ -286,14 +286,7 @@ export default function Dashboard() {
                 {showFacePanel ? "Camera On" : "Camera"}
               </button>
 
-              {/* Chat toggle */}
-              <button
-                onClick={() => setChatOpen((c) => !c)}
-                className="px-3 py-2 rounded-xl text-sm bg-emerald-700/80 hover:bg-emerald-700/100"
-                title="Open MindCare Chat"
-              >
-                Chat
-              </button>
+            
 
               {/* Sleep timing setter */}
               <button
